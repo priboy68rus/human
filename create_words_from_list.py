@@ -16,7 +16,7 @@ def write_words(words, words_filename):
     f.write("const words = [\n")
 
     for pair in words:
-        f.write("\t[\"" + pair[0] +  "\", \"" + pair[1] + "\"]\n")
+        f.write("\t[\"" + pair[0] +  "\", \"" + pair[1] + "\"],\n")
 
     f.write("]")
 
