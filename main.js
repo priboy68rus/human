@@ -6,6 +6,6 @@ window.addEventListener('load', () => {
 
 function setRandomTitle() {
     let pair = words[Math.floor(Math.random() * words.length)];
-    title.textContent = "Не " + pair[1] + " убивает человека, а человек " + pair[0];
+    title.textContent = "Не " + pair[0] + " убивает человека, а человек " + pair[1];
     title.style.opacity = 1;
 }
